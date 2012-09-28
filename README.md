@@ -13,6 +13,7 @@
 
 #### build docs
 
+ $ . bin/activate
  $ make html
 
 #### See sphinx docs
