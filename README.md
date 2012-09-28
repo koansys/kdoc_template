@@ -1,20 +1,20 @@
 #### Clone 
 
- $ git clone git@github.com:koansys/kdoc_template.git kdocs
- $ cd kdocs
+    $ git clone git@github.com:koansys/kdoc_template.git kdocs
+    $ cd kdocs
 
 #### Create venv
 
- $ virtualenv . --distribute
+    $ virtualenv . --distribute
  
 #### install sphinx
 
- $ ./bin/easy_install sphinx
+    $ ./bin/easy_install sphinx
 
 #### build docs
 
- $ . bin/activate
- $ make html
+    $ . bin/activate
+    $ make html
 
 #### See sphinx docs
 
