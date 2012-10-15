@@ -37,7 +37,7 @@ master_doc = 'index'
 
 # General substitutions.
 project = 'koansys.atemplate'
-copyright = '2009, Koansys, LLC <info@koansys.com>'
+copyright = '2012, Koansys, LLC <info@koansys.com>'
 
 # The default replacements for |version| and |release|, also used in various
 # other places throughout the built documents.
@@ -97,7 +97,7 @@ html_style = 'koansys.css'
 
 # The name of an image file (within the static path) to place at the top of
 # the sidebar.
-html_logo = '.static/koansyslogo.png'
+html_logo = 'static/koansyslogo.png'
 
 # The name of an image file (within the static path) to use as favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or
@@ -108,7 +108,8 @@ html_logo = '.static/koansyslogo.png'
 # here, relative to this directory. They are copied after the builtin
 # static files, so a file named "default.css" will overwrite the builtin
 # "default.css".
-html_static_path = ['.static']
+html_static_path = ['static']
+html_theme = 'koansys'
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page
 # bottom, using the given strftime format.
@@ -169,7 +170,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the
 # top of the title page.
-latex_logo = '.static/koansyslogo.png'
+latex_logo = 'static/koansyslogo.png'
 
 # For "manual" documents, if this is true, then toplevel headings are
 # parts, not chapters.
